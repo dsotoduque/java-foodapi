@@ -1,0 +1,10 @@
+micronaut:
+  application:
+    name: foodapi
+
+mongodb:
+  uri: "mongodb://localhost:27017/foodapi"
+
+test-resources:
+  containers:
+    enabled: false
